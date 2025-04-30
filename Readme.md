@@ -153,10 +153,4 @@ Mevcut testler, `1bitLLM/bitnet_b1_58-xl` modelinin bu Türkçe veri seti üzeri
 
 The current tests indicate that the `1bitLLM/bitnet_b1_58-xl` model exhibits severe performance issues on this Turkish dataset for both perplexity calculation and text generation (required for BLEU). The challenges and warnings related to the tokenizer might also contribute to these problems.
 
-**Öneriler | Recommendations:**
 
-* Türkçe dil görevleri için daha iyi performans gösterdiği bilinen farklı açık kaynaklı modelleri (örneğin, TURNA, mT5, MBART tabanlı modeller veya Türkçe'ye özel eğitilmiş diğer modeller) araştırmak ve denemek. / Research and experiment with different open-source models known to perform better for Turkish language tasks (e.g., TURNA, mT5/MBART-based models, or other models specifically trained on Turkish).
-* Eğer bu modelle devam edilmek isteniyorsa, tokenizer sorununu daha derinlemesine araştırmak veya modelin farklı bir revizyonunu/checkpoint'ini denemek. / If continuing with this specific model, investigate the tokenizer issue further or try different revisions/checkpoints of the model.
-* Kullanılan veri setinin (`tur_subset`) kalitesini ve modelin eğitim verisiyle olan ilişkisini gözden geçirmek. / Review the quality of the dataset (`tur_subset`) and its relation to the model's training data.
-
----
