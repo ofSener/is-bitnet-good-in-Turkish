@@ -153,4 +153,6 @@ Mevcut testler, `1bitLLM/bitnet_b1_58-xl` modelinin bu Türkçe veri seti üzeri
 
 The current tests indicate that the `1bitLLM/bitnet_b1_58-xl` model exhibits severe performance issues on this Turkish dataset for both perplexity calculation and text generation (required for BLEU). The challenges and warnings related to the tokenizer might also contribute to these problems.
 
+![Image](https://github.com/user-attachments/assets/8d561c25-7154-4b7c-9482-5e7812f1dd75)
 
+![Image](https://github.com/user-attachments/assets/c16f36a8-3436-4003-a1af-5c36b5bc7dc4)
