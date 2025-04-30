@@ -1,0 +1,46 @@
+# --- Python Sanal Ortamı ---
+# Asla commit etme!
+venv/
+
+# --- Python Cache ve Derlenmiş Dosyalar ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Python Build/Distribution Artifacts ---
+build/
+dist/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+share/python-wheels/
+*.manifest
+*.spec
+
+# --- Veri Klasörleri ---
+# Kullanıcı sadece kodları yüklemek istediği için veri klasörünü yok sayıyoruz.
+# README.md dosyasında verinin nasıl elde edileceği açıklanmalıdır.
+data/tur_subset/
+
+# --- IDE/Editör Ayar Dosyaları ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+nbproject/
+
+# --- İşletim Sistemi Özel Dosyaları ---
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+# Linux
+*~
+
+# --- Diğer ---
+# Log dosyaları
+*.log
+# Jupyter Notebook Checkpoints (eğer kullanılıyorsa)
+.ipynb_checkpoints
